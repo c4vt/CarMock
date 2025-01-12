@@ -1,0 +1,424 @@
+
+.lineh{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.lineh::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    display: block;
+    
+
+}
+
+.lineh:hover::after{
+    width:100%;
+    transition: width 0.2s linear;
+
+}
+
+
+
+.logo img{
+    width: 75px;
+    border-radius: 45%;
+}
+
+
+
+.main a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 33px;
+    color: black;
+    margin-left: 65px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.point{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: rgb(100, 177, 248);
+    margin-top: -9px;
+    margin-left: -8px;
+    margin-right: -9px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding: 5px;
+    
+}
+
+ body{
+    background-color: rgb(255, 255, 255);
+}
+
+.info{
+    background-color:white;
+    text-align: center;
+    justify-content: center;    
+    
+}
+
+.info p{
+    font-weight: bolder;
+    font-size:30px;
+    
+
+}
+
+.info a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+    border: 3px solid rgb(112, 198, 220);
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(112, 198, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px 2px rgb(92, 91, 91);
+    
+    
+}
+
+.crapper{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    
+}
+
+.collapsible{
+    max-width:500px;
+    overflow: hidden;
+    font-weight: bold;
+    
+}
+
+.collapsible label {
+    position: relative;
+    font-weight: 600;
+    background: #86ddff;
+    
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    content: '';
+    font-family: Arial, Helvetica, sans-serif;
+    width: 375px;
+    box-shadow: 2px 3px 2px rgb(163, 163, 163);
+    
+}
+
+.collapsible label::after{
+    content:"+";
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+    
+}
+
+
+
+
+.collapsible label::after{
+    
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+    
+}
+
+.collapsible-text{
+    max-height:1px;
+    overflow:hidden;
+    border-radius: 5px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.6s ease;
+
+}
+
+.collapsible input:checked ~ .collapsible-text{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: rgb(75, 184, 194);
+    opacity: 1;
+    top: 0;
+}
+
+.collapsible-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.collapsible-text p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.collapsible input:checked ~ label::after{
+   content: '-';
+}
+
+
+.crapper{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.collapsibl{
+    max-width:450px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.collapsibl label {
+    position: relative;
+    font-weight: 600;
+    background: #86ddff;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    content: '';
+    font-family: Arial, Helvetica, sans-serif;
+    width: 375px;
+    box-shadow: 2px 3px 2px rgb(184, 184, 184);
+    
+}
+
+.collapsibl label::after{
+    content:"+";
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+    
+}
+
+
+.collapsibl label::after{
+    
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+}
+
+.collapsibl-text{
+    max-height:1px;
+    overflow:hidden;
+    border-radius: 5px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.6s ease;
+
+}
+
+.collapsibl input:checked ~ .collapsibl-text{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: rgb(75, 184, 194);
+    box-shadow: 0 5px 11px rgb(122, 122, 158);
+    opacity: 1;
+    top: 0;
+}
+
+.collapsibl-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color:rgb(255, 255, 255);
+
+}
+
+.collapsibl-text p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+.collapsibl input:checked ~ label::after{
+   content: '-';
+}
+
+.crapper{
+    display: flex;
+    padding-top: 50px;
+    
+    justify-content: center;
+}
+
+.collapsib{
+    max-width:450px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.collapsib label {
+    position: relative;
+    font-weight: 600;
+    background: #86ddff;
+    box-shadow: 0 5px 11 px 0 black;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    content: '';
+    font-family: Arial, Helvetica, sans-serif;
+    width: 375px;
+    box-shadow: 2px 3px 2px rgb(163, 163, 163);
+    padding-bottom: 10px;
+}
+
+.collapsib label::after{
+    content:"+";
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+    
+}
+
+
+
+
+.collapsib label::after{
+    
+    position: absolute;
+    right:15px;
+    
+    
+    height: 18px;
+    
+}
+
+.collapsib-text{
+    max-height:1px;
+    overflow:hidden;
+    border-radius: 5px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.6s ease;
+
+}
+
+.collapsib input:checked ~ .collapsib-text{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: rgb(75, 184, 194);
+    box-shadow: 0 5px 11px rgb(122, 122, 158);
+    opacity: 1;
+    top: 0;
+}
+
+.collapsib-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color:rgb(255, 255, 255);
+
+}
+
+.collapsib-text p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+.collapsib input:checked ~ label::after{
+   content: '-';
+}
+
+.asher{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ddedfb;
+    border-radius: 30px;
+        
+    
+    
+    
+}
+
+.ashes{
+    margin-bottom: -20px;
+    width: 200px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.troll{
+    width: 300px;
+    text-align: center;
+}
+
+.bod{
+    box-shadow: 3px 3px 3px 2px  rgb(235, 233, 233);
+    width: 575px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
